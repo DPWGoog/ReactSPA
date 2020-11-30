@@ -1,17 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'; 
+import './App.css'; 
+// import AddCount from './Test'
+// import UseContextTest from './UseContextTest'
+// import UseReducerTest from './UseReducerTest'
+import CreactMyHooks from './CreactMyHooks'
 
-function App() {
+function App(props) {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit   and save to reload.
-        </p>
-         
-      </header>
+    <div>
+      <CreactMyHooks />
     </div>
   );
 }
